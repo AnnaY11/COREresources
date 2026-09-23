@@ -1,0 +1,15 @@
+/* CORE palette: Columbia blue, sky, and navy */
+:root { --ink: #102a43; --paper: #f5f9ff; --lime: #b9e3ff; --line: #b8cadb; --muted: #526d82; }
+.hero-art { background: #b9e3ff; }
+.brand span, em, .eyebrow i, .ticker b, .steps span { color: #1d62d1; background-color: transparent; }
+.eyebrow i { background-color: #1d62d1; }
+.core { color: #b9e3ff; background: #102a43; font-family: 'DM Sans', sans-serif; font-size: 36px; font-weight: 700; letter-spacing: -2px; white-space: nowrap; }
+.signal { background: #1d62d1; }
+.ticker { background: #102a43; color: #b9e3ff; }
+.events { background: #102a43; }
+.events em, .date, .tag, .arrow { color: #b9e3ff; }
+.primary.light { background: #b9e3ff; color: #102a43; }
+.card.violet:hover, .card.coral:hover, .card.blue:hover, .card.yellow:hover, .card.green:hover { box-shadow: 5px 6px 0 #1d62d1; }
+.event-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 30px; }
+.event { grid-template-columns: 62px 1fr 22px; }
+@media (max-width: 750px) { .event-list { display: block; } }
